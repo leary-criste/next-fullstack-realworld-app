@@ -62,4 +62,4 @@ export const POST = async (
   }
 
   return ApiResponse.ok({ comment })
-}
+}
