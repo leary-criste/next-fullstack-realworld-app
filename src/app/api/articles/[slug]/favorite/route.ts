@@ -87,4 +87,4 @@ export const DELETE = async (
 
   const newArticle = await getArticle({ slug: params.slug })
   return ApiResponse.ok(newArticle)
-}
+}
