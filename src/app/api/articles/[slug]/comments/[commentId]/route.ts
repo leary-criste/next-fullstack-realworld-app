@@ -35,4 +35,4 @@ export const DELETE = async (
   }
 
   return ApiResponse.noContent()
-}
+}
