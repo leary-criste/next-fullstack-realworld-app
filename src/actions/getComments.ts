@@ -26,4 +26,4 @@ export async function getComments(params: IArticleParams) {
       author: userMapper(comment.author),
     }
   })
-}
+}
