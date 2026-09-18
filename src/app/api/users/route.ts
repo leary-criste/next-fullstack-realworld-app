@@ -28,4 +28,4 @@ export const POST = async (req: NextRequest) => {
   } catch (e) {
     return ApiResponse.badRequest('Register fail')
   }
-}
+}
