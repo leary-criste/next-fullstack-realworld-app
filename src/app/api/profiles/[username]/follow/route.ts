@@ -92,4 +92,4 @@ export const DELETE = async (
 
   revalidate()
   return ApiResponse.ok({ profile: userMapper(followUser, false) })
-}
+}
