@@ -31,4 +31,4 @@ export default async function getUserProfile(username: string) {
   } catch (error: any) {
     return null
   }
-}
+}
