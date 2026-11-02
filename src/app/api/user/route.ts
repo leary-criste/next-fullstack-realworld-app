@@ -30,4 +30,4 @@ export async function PUT(req: NextRequest) {
   } catch (e) {
     return ApiResponse.badRequest('Update user fail')
   }
-}
+}
