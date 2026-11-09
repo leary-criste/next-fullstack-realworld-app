@@ -60,4 +60,4 @@ export async function getArticle(params: IArticleParams) {
     favorited,
     favoritesCount: data._count.favoritedBy,
   }
-}
+}
